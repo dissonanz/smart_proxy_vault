@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.description = 'Authenticates a client & returns a Vault token'
   s.authors = %w{Riley Shott}
   s.email = 'riley.shott@visioncritical.com'
-  s.extra_rdoc_files = ['README.md', 'LICENSE']
+  s.extra_rdoc_files = ['README.md', 'LICENSE', 'CHANGELOG.md']
   s.files = Dir['{lib,settings.d,bundler.d,test}/**/*'] + s.extra_rdoc_files
   s.test_files = s.files.grep(%r{^(test)/})
-  s.homepage = 'http://github.com/visioncritical/smart_proxy_vault'
+  s.homepage = 'https://github.com/visioncritical/smart_proxy_vault'
   s.license = 'GPLv3'
 
   s.add_development_dependency('bundler', '~> 1.11')
