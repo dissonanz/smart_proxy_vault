@@ -1,3 +1,6 @@
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
+
 $: << File.join(File.dirname(__FILE__), '..', 'lib')
 
 require 'openssl'
